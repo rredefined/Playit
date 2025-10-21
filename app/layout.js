@@ -7,7 +7,7 @@ import Preloader from './components/Preloader'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Onyx - Game Server & VPS Hosting',
+  title: 'KynexLabs - Game Server & VPS Hosting',
   description: 'Professional game server and VPS hosting solutions with locations worldwide.',
 }
 
