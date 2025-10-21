@@ -201,7 +201,7 @@ export default function Home() {
           >
             <h1 className="section-heading hero-title">
               Power Your Game with{' '}
-              <span className="text-white">Onyx</span>
+              <span className="text-white">KynexLabs</span>
             </h1>
 
             <p className="section-description">
@@ -267,7 +267,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="section-title">Why Choose Onyx?</h2>
+            <h2 className="section-title">Why Choose KynexLabs?</h2>
             <p className="section-description">Experience the best in game server hosting</p>
           </motion.div>
 
