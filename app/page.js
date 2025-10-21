@@ -49,12 +49,12 @@ const features = [
 ];
 
 const locations = [
-  { name: 'India', flag: '🇮🇳', latency: '40-60ms' },
-  { name: 'Germany', flag: '🇩🇪', latency: '20-30ms' },
-  { name: 'USA', flag: '🇺🇸', latency: '30-50ms' },
-  { name: 'UK', flag: '🇬🇧', latency: '25-35ms' },
-  { name: 'Ireland', flag: '🇮🇪', latency: '25-35ms' },
-  { name: 'Sweden', flag: '🇸🇪', latency: '30-40ms' },
+  { name: 'India', flag: '🇮🇳', latency: '5-10ms' },
+  { name: 'Germany', flag: '🇩🇪', latency: '40-50ms' },
+  { name: 'USA', flag: '🇺🇸', latency: '30-40ms' },
+  { name: 'UK', flag: '🇬🇧', latency: '35-45ms' },
+  { name: 'Ireland', flag: '🇮🇪', latency: '50-55ms' },
+  { name: 'Sweden', flag: '🇸🇪', latency: '50-60ms' },
 ];
 
 const minecraftPlans = [
