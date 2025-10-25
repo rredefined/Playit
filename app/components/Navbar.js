@@ -26,14 +26,14 @@ const Navbar = () => {
   ];
 
   const freeStuffItems = [
-    { name: 'Dashboard', href: 'https://dash.yourhost/' },
-    { name: 'Panel', href: 'https://panel.yourhost/auth/login' },
+    { name: 'Dashboard', href: 'https://client.axytehost.xyz' },
+    { name: 'Panel', href: 'https://panel.axytehost.xyz' },
   ];
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Dashboard', href: 'https://dash.yourhost/' },
-    { name: 'Panel', href: 'https://panel.yourhost/auth/login' },
+    { name: 'Dashboard', href: 'https://client.axytehost.xyz' },
+    { name: 'Panel', href: 'https://panel.axytehost.xyz' },
   ]
 
   return (
@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="flex items-center space-x-3">
               <div className="relative w-8 h-8">
                 <Image
-                  src="/logo.png"
+                  src="/public/img/logo.png"
                   alt="Onyx Logo"
                   fill
                   className="object-contain"
@@ -58,7 +58,7 @@ const Navbar = () => {
                 />
               </div>
               <span className="ml-2 text-lg font-semibold">
-                Onyx
+                AxyteHost
               </span>
             </div>
 
@@ -119,7 +119,7 @@ const Navbar = () => {
           {/* Right Side */}
           <div className="flex items-center space-x-4">
             <motion.a
-              href="https://discord.com"
+              href="https://discord.gg/C9PeDmFqzs"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-[#1a1a1a] text-white text-[14px] font-medium 
@@ -197,7 +197,7 @@ const Navbar = () => {
                   ))}
                 </div>
                 <motion.a
-                  href="https://discord.com"
+                  href="https://discord.gg/C9PeDmFqzs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#1a1a1a] text-white text-[14px] font-medium 
